@@ -1,1 +1,0 @@
-1. Python과 JavaScript의 작동 원리
