@@ -1,6 +1,6 @@
 <h2>2. GitHub 사용법</h2>
 
-<h4>환경설정</h4>
+<h3>환경설정</h3>
 
 **유저 이름 설정**<br/>
 git config --global user.name "your_name"
@@ -13,7 +13,7 @@ git config --list
 
 ---
 
-<h4>Github에 처음 코드 업로드시</h4>
+<h3>Github에 처음 코드 업로드시</h3>
 
 **초기화**<br/>
 git init
@@ -40,7 +40,7 @@ git push origin heajeong
 
 ---
 
-<h4>Github에 계속 업데이트 하는 법</h4>
+<h3>Github에 계속 업데이트 하는 법</h3>
 
 **추가할 파일 더하기**<br/>
 git add .
@@ -52,7 +52,9 @@ git commit -m "first commit"
 git push origin master
 git push origin heajeong
 
-<h4>Github로 팀프로젝트 하는 법</h4>
+---
+
+<h3>Github로 팀프로젝트 하는 법</h3>
 
 **Github에서 소스코드 다운로드**<br/>
 git clone 주소 폴더이름(선택)
