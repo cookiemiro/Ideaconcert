@@ -79,19 +79,6 @@ HTML과 CSS를 직접 파싱하고, JS는 크롬 기준 v8엔진으로 파서에
 
 ---
 
-<h2>참고문헌</h2>
-
-- https://velog.io/@blcklamb/%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B0%A9%EB%B2%95%EB%B6%80%ED%84%B0-%EC%98%88%EC%83%81-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EA%B9%8C%EC%A7%80
-  <br/>
-- https://github.com/Esoolgnah/Frontend-Interview-Questions
-  <br/>
-- https://enjoydev.life/blog/frontend/2-browser-rendering
-  <br/>
-- https://hyojin96.tistory.com/entry/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95-Render-Tree%EC%99%80-DOM-Tree%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90
-  <br/>
-- https://east-star.tistory.com/8
-  <br/>
-
 <h2>렌더링의 원리를 이해해야 되는 이유는?</h2>
 
 **성능 최적화:** 렌더링 프로세스를 이해하면 성능을 최적화하는 방법을 파악할 수 있습니다.<br/>
@@ -128,3 +115,16 @@ DOM이 추가/삭제되거나 요소에 기하적인 영향(높이, 넓이, 위�
 
 **리페인트:** 리플로우는 요소에 기하적인 영향을 주는 CSS 속성 값을 변경할 때 발생한다고 했는데, 반대로 영향을 주지 않는 CSS 속성값을 변경하면 레이아웃 과정을 건너뜁니다.<br/>
 즉 background-color, visibility와 같이 레이아웃에는 영향을 주지 않는 스타일 속성이 변경되면, 이는 페인트부터 수행하기에 '리페인트' 라고 합니다.<br/> -->
+
+<h2>참고문헌</h2>
+
+- https://velog.io/@blcklamb/%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B0%A9%EB%B2%95%EB%B6%80%ED%84%B0-%EC%98%88%EC%83%81-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EA%B9%8C%EC%A7%80
+  <br/>
+- https://github.com/Esoolgnah/Frontend-Interview-Questions
+  <br/>
+- https://enjoydev.life/blog/frontend/2-browser-rendering
+  <br/>
+- https://hyojin96.tistory.com/entry/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95-Render-Tree%EC%99%80-DOM-Tree%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90
+  <br/>
+- https://east-star.tistory.com/8
+  <br/>
